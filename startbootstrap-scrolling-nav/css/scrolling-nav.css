@@ -36,5 +36,13 @@ img {
 
 .circle-containers {
   height: 200px;
-  display: inline-block;
+}
+
+.floated_img{
+    display: inline-block;
+    width:30%;
+}
+
+.pg {
+  text-align:center;
 }
