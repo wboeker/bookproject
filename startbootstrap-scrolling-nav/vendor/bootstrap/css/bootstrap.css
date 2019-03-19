@@ -557,7 +557,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 1000px;
   }
 }
 
@@ -1207,9 +1207,9 @@ pre code {
     max-width: 58.333333%;
   }
   .col-lg-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    -ms-flex: 0 0 95%;
+    flex: 0 0 95%;
+    max-width: 95%;
   }
   .col-lg-9 {
     -ms-flex: 0 0 75%;
@@ -6383,6 +6383,7 @@ a.close.disabled {
 
 .bg-primary {
   background-color: black !important;
+  height: 50% !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,

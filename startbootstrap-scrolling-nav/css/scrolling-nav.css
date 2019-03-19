@@ -40,9 +40,66 @@ img {
 
 .floated_img{
     display: inline-block;
-    width:30%;
+    width:19%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .pg {
   text-align:center;
+}
+
+.auth-container {
+  height: 500px;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.auth-container:hover .centered{
+  visibility: visible;
+  opacity: 1;
+}
+
+.auth-container:hover .auth-text{
+  visibility: visible;
+  opacity: 1;
+}
+
+.contr-img:hover {
+  opacity: 0.8;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 50px;
+}
+
+.auth-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  font-size: 15px;
+}
+
+.img-responsive {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.img-responsive:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+}
+
+.all-img {
+  width: 100%;
 }
