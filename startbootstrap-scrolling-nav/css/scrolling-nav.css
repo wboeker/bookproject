@@ -103,3 +103,7 @@ img {
 .all-img {
   width: 100%;
 }
+
+.img-responsive {
+  border-radius: 15%;
+}
